@@ -1,0 +1,78 @@
+.gallery{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+    margin-left: auto;
+}
+
+@keyframes ease{
+	0% {filter:blur(15px);}
+	50% {filter:blur(30px); background-color: #ffcc00;}
+	100% {filter:blur(40px);}
+}
+.box1{ 
+	display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    -webkit-filter: blur(15px);
+    filter: blur(15px);
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-name: ease;
+   }
+
+@keyframes pulse{
+	25%{width:160px; height:160px; background-color: white;}
+	35%{width:150px; min-height: 150px;}
+	65%{width: 175px; height: 175px; background-color: white;}
+}
+.box2{
+	display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+    -webkit-filter: blur(15px);
+    filter: blur(15px);
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-name: pulse;
+    animation-iteration-count: 2;
+}
+
+
+#red{
+    display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+	background-color: #ff1a1a;
+}
+#orange{
+    display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+	background-color: #ff751a;
+}
+#yellow{ 
+    display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+	background-color: #ffcc00;
+}
+#ro{
+    display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+	background-color: #ff471a;
+}
+#oy{
+    display: inline-block;
+    position: relative; 
+    width: 150px;
+    height: 150px;
+	background-color: #ff9933;
+}
