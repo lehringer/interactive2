@@ -1,33 +1,32 @@
 .gallery{
-    position: relative;
 	height: 800px;
 	width: 100%;
-    margin-left,top: auto;
-/*    background-color: pink;*/
+	overflow: hidden;
+    margin-left: auto;
 }
 
-/*@keyframes fade{
+/*@keyframes ease{
 	0% {filter:blur(15px);}
 	50% {filter:blur(30px); background-color: #ffcc00;}
 	100% {filter:blur(40px);}
 }*/
-/*.box1{ 
+.box1{ 
 	display: inline-block;
     position: relative; 
     width: 150px;
     height: 150px;
-    -webkit-filter: blur(15px);
+/*    -webkit-filter: blur(15px);
     filter: blur(15px);
-    animation-duration: 6s infinite;
+    animation-duration: 6s;
     animation-timing-function: ease-out;
-    animation-name: fade;
+    animation-name: ease;*/
    }
 
-@keyframes pulse{
+/*@keyframes pulse{
 	25%{width:160px; height:160px; background-color: white;}
 	35%{width:150px; min-height: 150px;}
 	65%{width: 175px; height: 175px; background-color: white;}
-}
+}*/
 .box2{
 	display: inline-block;
     position: relative; 
@@ -39,60 +38,45 @@
     animation-delay: 2s;
     animation-name: pulse;
     animation-iteration-count: 2;
-}*/
+}
 
-.red{
+#red{
     display: inline-block;
     position: relative; 
     margin: -2px;
-    width: 151px;
-    height: 151px;
+    width: 150px;
+    height: 150px;
 	background-color: #ff1a1a;
-    -webkit-filter: blur(15px);
-    filter: blur(15px);
-    z-index: 1;
 }
-.orange{
+#orange{
     display: inline-block;
     position: relative; 
     margin: -2px;
-    width: 151px;
-    height: 151px;
+    width: 150px;
+    height: 150px;
 	background-color: #ff751a;
-    -webkit-filter: blur(15px);
-    filter: blur(15px);
-    z-index: 2;
 }
-.yellow{ 
+#yellow{ 
     display: inline-block;
     position: relative; 
     margin: -2px;
-    width: 151px;
-    height: 151px;
-	background-color:  #FFD700;
-    -webkit-filter: blur(15px);
-    filter: blur(15px);
-    z-index: 3;
+    width: 150px;
+    height: 150px;
+	background-color: #ffcc00;
 }
-.ro{
+#ro{
     display: inline-block;
     position: relative; 
     margin: -2px;
-    width: 151px;
-    height: 151px;
+    width: 150px;
+    height: 150px;
 	background-color: #ff471a;
-    -webkit-filter: blur(15px);
-    filter: blur(15px);
-    z-index: 4;
 }
-.oy{
+#oy{
     display: inline-block;
     position: relative; 
     margin: -2px;
-    width: 151px;
-    height: 151px;
+    width: 150px;
+    height: 150px;
 	background-color: #ff9933;
-    -webkit-filter: blur(15px);
-    filter: blur(15px);
-    z-index: 5;
 }
